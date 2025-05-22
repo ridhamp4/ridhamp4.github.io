@@ -24,13 +24,31 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Technical Council, Indian Institute of Technology, Gandhinagar",
+      "position": "Management Coordinator",
+      "url": "https://students.iitgn.ac.in/tech-council",
+      "startDate": "2025-05-01",
+      "endDate": "2026-04-01",
+      "summary": "Responsible for improving the techincal culture of the college, push and motivate students to find and pursue techincal domains of their interests.",
+      "highlights": ["administration, tech"]
+    }
+    {
+      "name": "Indian Institute of Technology, Gandhinagar",
+      "position": "Senator, BTech'23",
+      "url": "https://iitgn.ac.in",
+      "startDate": "2025-04-01",
+      "endDate": "2026-04-01",
+      "summary": "Represented the Batch at the college administration. Worked to raise and solve the concerns of students of IIT Gandhinagar.",
+      "highlights": ["administration"]
+    }
+    {
+      "name": "Indian Institute of Technology, Gandhinagar",
+      "position": "Class Representative, Computer Science & Engineering, BTech'23",
+      "url": "https://iitgn.ac.in",
+      "startDate": "2024-08-01",
+      "endDate": "2025-04-01",
+      "summary": "Represented the students of computer science & engineering of the Batch in academics. Worked to ensure the effective communication between students and professors for smoother functioning of the course.",
+      "highlights": ["communication"]
     }
   ],
   "volunteer": [
