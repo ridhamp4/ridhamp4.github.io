@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Student</a>. IIT Gandhinagar, Gujarat
 
 profile:
   align: right
   image: ridham_portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>+91 9712901729</p>
-    <p>1001, Riverside 46, Raysan</p>
+    <p>1001</p>
+    <p>Riverside 46, Raysan</p>
     <p>Gandhinagar, Gujarat 382007</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
