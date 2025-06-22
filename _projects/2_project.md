@@ -4,7 +4,7 @@ title: Graph Coarsening with Preserved GNN Performance
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: Advised
 giscus_comments: false
 ---
 
