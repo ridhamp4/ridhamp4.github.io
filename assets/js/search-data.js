@@ -118,13 +118,13 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
+            },},{id: "projects-continuous-dynamic-temporal-graph-coarsening",
+          title: 'Continuous Dynamic Temporal Graph Coarsening',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
+            },},{id: "projects-eliminating-bottlenecks-with-a-novel-dual-layered-gnn-architecture",
+          title: 'Eliminating Bottlenecks with a Novel Dual-Layered GNN Architecture',
           description: "another without an image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
