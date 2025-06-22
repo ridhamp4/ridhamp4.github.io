@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 7
+title: Graph Transformer for Molecular Dipole Prediction
 description: with background image
 img: assets/img/4.jpg
 importance: 1
-category: work
+category: Non-Advised
 related_publications: true
 ---
 
