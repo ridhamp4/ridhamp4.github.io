@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 8
+title: Next Line Predictor Chatbot with MLP
 description: an other project with a background image and giscus comments
 img: assets/img/9.jpg
 importance: 2
-category: work
+category: Non-Advised
 giscus_comments: true
 ---
 
