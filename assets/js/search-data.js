@@ -440,8 +440,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-have-just-been-selected-as-management-coordinator-for-tech-council-for-ay2025-26",
+          title: 'I have just been selected as Management Coordinator for Tech Council for AY2025-26!...',
           description: "",
           section: "News",},{id: "news-we-have-just-rolled-out-some-excellent-projects-for-summer-seige-tech-council-iit-gn",
           title: 'We have just rolled out some excellent projects for Summer Seige @Tech Council,...',
