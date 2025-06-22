@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I started working on a project on Temporal Graph Coarsening at IIT Delhi! :sparkles: :smile:
