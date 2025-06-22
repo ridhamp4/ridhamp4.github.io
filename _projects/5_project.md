@@ -4,7 +4,7 @@ title: Creating Dataset for Generative AI of PCB Design & Simulation Software
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 3
-category: work
+category: Advised
 ---
 
 Every project has a beautiful feature showcase page.
