@@ -4,7 +4,7 @@ title: Hypergraph Coarsening with preserved HyperGNN Performance
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Advised
 related_publications: false
 ---
 
