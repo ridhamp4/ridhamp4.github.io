@@ -108,8 +108,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-started-working-on-a-project-on-temporal-graph-coarsening-at-iit-delhi-sparkles-smile",
           title: 'I started working on a project on Temporal Graph Coarsening at IIT Delhi!...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-hypergraph-coarsening-with-preserved-hypergnn-performance",
+          title: 'Hypergraph Coarsening with preserved HyperGNN Performance',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
