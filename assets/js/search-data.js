@@ -443,12 +443,10 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-we-have-just-rolled-out-some-excellent-projects-for-summer-seige-tech-council-iit-gn",
+          title: 'We have just rolled out some excellent projects for Summer Seige @Tech Council,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-started-working-on-a-project-on-temporal-graph-coarsening-at-iit-delhi-sparkles-smile",
+          section: "News",},{id: "news-i-started-working-on-a-project-on-temporal-graph-coarsening-at-iit-delhi-sparkles-smile",
           title: 'I started working on a project on Temporal Graph Coarsening at IIT Delhi!...',
           description: "",
           section: "News",},{id: "projects-project-1",
