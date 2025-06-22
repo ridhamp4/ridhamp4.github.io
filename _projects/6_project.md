@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
+title: Hub Based Graph Construction Techniques for HNSW
 description: a project with no image
 img:
 importance: 4
-category: fun
+category: Non-Advised
 ---
 
 Every project has a beautiful feature showcase page.
