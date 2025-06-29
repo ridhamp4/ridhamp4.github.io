@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ridhamp4.github.io/sitemap.xml
+Sitemap: https://ridham.tech/sitemap.xml
