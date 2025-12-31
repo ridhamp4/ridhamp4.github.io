@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-IIT Gandhinagar Tech Contingent won 4 trophies (best of all times) at the event, and I personally won a bronze (Dec 15, 2025).
+IIT Gandhinagar Tech Contingent won 4 trophies (best of all times) at the event, and I personally won a bronze.
 

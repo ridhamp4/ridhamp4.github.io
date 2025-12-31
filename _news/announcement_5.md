@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I have been selected for Caltech SURF 2026 (Nov 25, 2025).
+I have been selected for Caltech SURF 2026.
 
