@@ -81,6 +81,8 @@ This page collects course materials, lecture notes, assignments, and links for c
 **Course materials**:
 - Lecture slides, code, and additional readings will be linked here when available. The original short-course PDF is available as an attachment.
 
+**Attendance:** This short course was attended by 200+ students — the largest short course ever held at IITGN.
+
 If you want, I can:
 - Add a downloadable copy of the PDF into the site's `assets` and link it here.
 - Convert this single page into a `_teaching/` collection with one markdown per lecture (useful for per-lecture notes, slides, and code).
