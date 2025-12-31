@@ -1,15 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
   - ridhamp4
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+github_repos: [] # Removed external example repositories. Add your own in the form `username/repo` if you want them displayed.
