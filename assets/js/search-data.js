@@ -31,8 +31,8 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "Course materials and resources for classes taught. This page is based on the structure of the &quot;Intro to ML&quot; course and contains a draft syllabus, schedule, and placeholders for slides, assignments and code.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
