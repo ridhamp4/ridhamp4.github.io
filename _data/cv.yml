@@ -7,87 +7,234 @@
       value: 4th October 2005
     - name: Languages
       value: English, Hindi, Gujarati
+    - name: Email
+      value: ridham.patel@iitgn.ac.in
+    - name: Phone
+      value: +91 9712901729
 
 - title: Education
   type: time_table
   contents:
-    - title: BTech
-      institution: Indian Institute of Technology Gandhinagar, Gujarat, India
-      year: 2023
+    - title: B.Tech
+      institution: Indian Institute of Technology Gandhinagar
+      year: 2023-Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Computer Science & Engineering
+        - CPI 8.89/10
+    - title: Class XII
+      institution: Divine Life International School (GSHSEB)
+      year: 2022-2023
+      description:
+        - Maths, Physics, Chemistry, CS
+        - 81.54%
+    - title: Class X
+      institution: Devasya Intl. Public School (GSHSEB)
+      year: 2020-2021
+      description:
+        - 90.0%
 
-- title: Experience
+- title: Conference Proceedings
   type: time_table
   contents:
-    - title: Management Coordinator, Technical Council
-      institution: Indian Institute of Technology Gandhinagar, Gujarat, India
+    - title: "Efficient Temporal Hypergraph Coarsening Framework with Theoretical Guarantees"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - ICML 2026 The Forty-Third International Conference on Machine Learning, under review
+    - title: "Capturing High Frequency Features using HF-Boost based Spectrally Adaptive Physics-Informed Neural Networks"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - Advanced Scientific Computing & Machine Learning (ASCML) 2026, BITS Pilani K K Birla Goa Campus, ACCEPTED
+    - title: "Multi-Diagnostic Ensemble for Physics-Informed Neural Networks"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - Advanced Scientific Computing & Machine Learning (ASCML) 2026, BITS Pilani K K Birla Goa Campus, ACCEPTED
+    - title: "Spectral Geometry and Minimax Optimality of Counterfactual Mean Embeddings under Partial Identifiability"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - COLT 2026 The 39th Annual Conference on Learning Theory, under review
+    - title: "Defying Asymptotic Feature Dynamics in Heterophilic GNNs using Drichlet Oscillations"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - COLT 2026 The 39th Annual Conference on Learning Theory, under review
+    - title: "Kernel Invariant Risk Minimization Fixed-Point Causal Discovery in High Dimensions"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - COLT 2026 The 39th Annual Conference on Learning Theory, under review
+    - title: "The Pareto Frontier of Stable Adaptation Hard Switching Constraints in Online Convex Optimization"
+      year: 2026
+      description:
+        - <b>Ridham Patel</b>
+        - COLT 2026 The 39th Annual Conference on Learning Theory, under review
+
+- title: Journals
+  type: time_table
+  contents:
+    - title: "Efficient and Reliable Dynamic Graph Coarsening with Theoretical Spectral Bounds"
       year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Senator, BTech'23
-      institution: Indian Institute of Technology Gandhinagar, Gujarat, India
-      year: 2025
+        - Manoj Kumar*, Abhishek Gupta*, <b>Ridham Patel</b>, Sandeep Kumar
+        - Journal of Machine Learning Research (JMLR), under review
+
+- title: Oral Presentations
+  type: time_table
+  contents:
+    - title: "Multi-Stage Physics-Informed Neural Network for Jet Flame Emission Modelling"
+      year: 2026
       description:
-        - Description 1.
-        - Description 2.
+        - <b>Ridham Patel</b>
+        - Advanced Scientific Computing & Machine Learning (ASCML) 2026, BITS Pilani K K Birla Goa Campus, ACCEPTED
 
-    - title: Class Representative, Computer Science & Engineering, BTech'23
-      institution: Indian Institute of Technology Gandhinagar, Gujarat, India
-      year: 2024-2025
+- title: Research Internships
+  type: time_table
+  contents:
+    - title: Machine Learning Research Intern
+      institution: Magikkraft, IIM Ahmedabad Incubatee
+      year: July'25 - Aug'25
+      description:
+        - Supervisor Khilan Popat, Founder & CEO
+        - Worked on a CV and ML-based construction project tracking system that analyzes photos and drawings
+        - Prepared a CV model for the detection of steel pipes on an Oil & Gas Plant Construction Plant using EfficientDeT and YOLO Architecture
+        - Prepared a Vision Model for Comparing 2D Engineering Drawing with site photos
+        - Explored different architectures for Object Detection & Counting
+        - <a href="https://drive.google.com/file/d/1Uevwz7a_m9X1aDTgtUbSdAwq488K5Ylj/view?usp=sharing">Project Report</a>
+    - title: Data Generation for Physics Informed ML modelling for PCB Simulation
+      institution: IIT Delhi
+      year: May'25 - July'25
+      description:
+        - Advisor Prof. Smruti Ranjan Sarangi, IIT Delhi
+        - Developed an indigenous PCB design and simulation software with Generative AI capabilities
+        - Created a cross-validated benchmark thermal, elasticity, and electromagnetism simulation datasets for physics-informed machine learning
+        - Gained experience in FEM pipelines, mesh generation, and validation using MFEM, OpenEMS, and Elmer
+        - <a href="https://drive.google.com/file/d/1E0pxA4D6MTdob4B-lmZ84di6LqaJ-xy7/view?usp=sharing">Project Report</a>
+    - title: Research Intern, Dynamic Graph Coarsening for GNN Preservation, MISN Lab
+      institution: IIT Delhi
+      year: June'25 - Present
+      description:
+        - Advisor Prof. Sandeep Kumar, IIT Delhi
+        - Developed Mathematical Guarantees on a novel Dynamic Graph Coarsening Framework
+        - Analysed theoretical Gromov-Wasserstein distance and gave novel RSA (Restricted Spectral Similarity) constant-based bounds
+        - Currently working on developing and testing a novel algorithm for Continuous Dynamic Graph Coarsening with preserved GNN performance
+        - Under Review at JMLR
 
-    # - title: Professor of Theoretical Physics
-    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
-    #   year: 1911 - 1917
-    #   description:
+- title: Projects
+  type: time_table
+  contents:
+    - title: Dynamic Hypergraph Coarsening with structural properties & HGNN performance preservation
+      year: July'25 - Present
+      description:
+        - Advisor Prof. Anirban Dasgupta, IIT Gandhinagar
+        - Investigating Coarsening methods for Temporal Hypergraph for various machine learning applications
+        - Developed a novel framework for making Temporal Updates to Coarse Hypergraphs
+        - Achieved up to 55x speedup from a full-recomputation-based baseline
+        - Developed mathematical guarantees for deviation from baseline
+        - Under Review at AISTATS 2026
+    - title: Physics Informed Diffusion Model for Flood Modelling and Prediction
+      year: July'25 - Present
+      description:
+        - Advisor Prof. Udit Bhatia, IIT Gandhinagar
+        - Developing a first-of-its-kind diffusion model for flood prediction in both fluvial and pluvial contexts
+        - Developed a preliminary version of the Graph-based Diffusion architecture for flood modelling in urban context
+        - <a href="https://drive.google.com/file/d/19Z2P6TVWBjp299Mp6gt_gQf9QNnwaMQR/view?usp=sharing">Project Report (Work So Far)</a>
+    - title: "ProGNN: Residue-level GNN for Secondary Structure & RSA Prediction"
+      year: Nov'25
+      description:
+        - Converted PDB/mmCIF structures into residue graphs for per-residue SS and ASA labels
+        - Engineered node/edge features and built a PyG pipeline for dataset discovery and preprocessing
+        - Implemented a 2-layer GCN with dual heads for 3-class secondary-structure classification and RSA regression
+        - <a href="https://github.com/ridhamp4/ProGNN">Github Link</a>
+    - title: Kernel Based Graph Condensation Algorithm for comparable GNN performance
+      year: May'25 - July'25
+      description:
+        - Advisor Prof. Anirban Dasgupta
+        - Developed a graph distillation technique to reduce computational complexity, preserving GNN performance
+        - Developed a scalable algorithm utilizing GNTK with Nyström approximation and kernel K-Means
+        - Enabled up to 80% graph size reduction with less than 1% GNN accuracy loss on Cora
+        - <a href="https://drive.google.com/file/d/17q6a32MaZFn8vTFOngWISTABChJCtF1G/view?usp=sharing">Project Report</a>
+    - title: Hub Based Graph Construction Techniques for HNSW
+      year: Jan'25 - Apr'25
+      description:
+        - Instructor Prof. Anirban Dasgupta, IIT Gandhinagar
+        - Proposed and implemented a supervised Graph Construction technique for HNSW algorithm for ANN search
+        - Explored the phenomenon of hubness in high-dimensional spaces
+        - Achieved perfect recall with 125x faster build times, slightly lesser query time & 82% fewer edges than vanilla HNSW
+        - <a href="https://drive.google.com/file/d/1xOOrqaKNOJL1Y4qcltl2D92q_WLsLc23/view?usp=sharing">Project Report</a>
+    - title: Graph Transformer Networks for Molecular Dipole Prediction
+      year: Apr'25
+      description:
+        - Developed a GTN-based model for predicting molecular dipoles using spatial positions of atoms
+        - Integrated 3D spatial positional encodings and attention-based message passing
+        - <a href="https://github.com/ridhamp4/Graph-Transformer-Networks-with-Positional-Features-for-Molecular-Property-Prediction">Github Link</a>
+    - title: Next Line Predictor Chatbot with Multilayer Perceptron
+      year: Aug'24 - Nov'24
+      description:
+        - Instructor Prof. Nipun Batra, IIT Gandhinagar
+        - Developed a Next-line predictor using a multilayer perceptron and deployed it using Streamlit
+        - Trained a multilayer perceptron for various sets of hyperparameters and analyzed its impact
+        - <a href="https://github.com/Jain-Laksh/ES335-assignment-3">Github Link</a>
 
-    # - title: Associate Professor of Theoretical Physics
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1909 - 1911
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Instructor, SC-392 Introduction to Machine Learning
+      institution: IIT Gandhinagar
+      year: Aug'25 - Sep'25
+      description:
+        - Short course for B.Tech, M.Tech, MA, M.Sc., and PhD students; 7 lectures, 200+ participants
+        - Co-designed and delivered a 7-lecture introductory ML course, including slides, live demos, and coding sessions
+        - Led lectures and discussions on core ML concepts and supervised labs
+        - 120+ first-year undergraduates actively engaging from the first session
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+- title: Technical Skills
+  type: list
+  contents:
+    - <b>Programming Languages:</b> Python, C++, C, HTML, CSS
+    - <b>Libraries:</b> PyTorch, Tensorboard, Scikit-learn, OpenCV, Numpy, Pandas, Streamlit
+    - <b>Machine Learning Techniques:</b> MLP, CNN, Reinforcement Learning, Regression Analysis, Graph Spatial Clustering Techniques, Attention Mechanism, Transformers, GNNs, GTNs
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-- title: Academic Interests
+- title: Relevant Coursework
   type: nested_list
   contents:
-    - title: Machine Learning.
+    - title: Registered Courses
       items:
-        - Graph Machine Learning (GNNs, GTNs).
-        - NTKs.
-        - Diffusion Models.
-        - Classical ML.
-    - title: Data Science.
+        - Machine Learning
+        - Data Centric Computing
+        - Calculus of Several Variables
+        - Discrete Mathematics
+        - Probability Statistics & Data Visualisation
+        - Data Structures & Algorithms
+        - Theory of Computing
+    - title: Additional Learning Courses
       items:
-        - KANN (K-Approximate nearest neighbours).
-        - Sketches.
+        - Data Science
+        - Data Structures & Algorithms II
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Achievements
+  type: list
+  contents:
+    - Secured All India Rank 1712 in JEE Advanced among 180,372 Students Appeared
+    - Secured All India Rank 1364 in JEE Mains among 1,113,325 Students Appeared
+    - Secured Bronze medal in AI/ML Category in Inter-IIT Tech Meet 14.0 Proposed by Jilo Health
+    - Recieved Summer Undergraduate Research Fellowship at Caltech for 2026
+    - Recieved Academic Citation for Academic Excellence in Semester I of the academic year 2025-26
+    - Received Best Student Paper award at the Intl. Conference on Advanced Scientific Computing & Machine Learning, 2026
+
+- title: Positions of Responsibility
+  type: time_table
+  contents:
+    - title: Deputy Contingent Leader, Inter-IIT Tech Meet 14.0
+      year: Oct'25 - Dec'25
+      description:
+        - Lead the group of 90 students representing IIT Gandhinagar in the 14th Inter IIT Tech Meet at IIT Patna
+        - Under my leadership, IIT Gandhinagar delivered its best performance to date with 4 medals
+        - Including the college's first gold and my individual bronze in a no-prep problem statement
+    - title: Management Coordinator, Technical Council
+      year: May'25 - Present
+      description:
+        - Responsible for smooth execution and organisation of technical events at IIT Gandhinagar
+        - Aiming to empower students through technical skills and foster a technical culture among the student community

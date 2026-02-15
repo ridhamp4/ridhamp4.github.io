@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Ridham Patel",
-    "label": "Student",
+    "label": "Junior Undergraduate, Computer Science & Engineering",
     "image": "",
     "email": "ridham.patel@iitgn.ac.in",
-    "phone": "(971) 290-1729",
-    "url": "https://ridhamp4.github.io/",
-    "summary": "A Computer Science Junior Undergrad at IIT Gandhinagar, exploring Machine Learning and Deep Learning.",
+    "phone": "+91 9712901729",
+    "url": "https://ridham.tech",
+    "summary": "Junior Undergraduate in Computer Science & Engineering at IIT Gandhinagar, focused on Machine Learning research with publications in ML conferences and journals.",
     "location": {
       "address": "1001 Riverside 46",
       "postalCode": "382007",
@@ -16,51 +16,93 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "ridhamp4",
+        "url": "https://www.linkedin.com/in/ridhamp4/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ridhamp4",
+        "url": "https://github.com/ridhamp4"
       }
     ]
   },
   "work": [
     {
+      "name": "Magikkraft, IIM Ahmedabad Incubatee",
+      "position": "Machine Learning Research Intern",
+      "url": "https://drive.google.com/file/d/1Uevwz7a_m9X1aDTgtUbSdAwq488K5Ylj/view?usp=sharing",
+      "startDate": "2025-07-01",
+      "endDate": "2025-08-31",
+      "summary": "Worked on a CV and ML-based construction project tracking system that analyzes photos and drawings.",
+      "highlights": [
+        "Prepared a CV model for the detection of steel pipes on an Oil & Gas Plant Construction Plant using EfficientDeT and YOLO Architecture",
+        "Prepared a Vision Model for Comparing 2D Engineering Drawing with site photos",
+        "Explored different architectures for Object Detection & Counting, and working on models for interpreting CAD files"
+      ]
+    },
+    {
+      "name": "IIT Delhi",
+      "position": "Research Intern - Data Generation for Physics Informed ML modelling for PCB Simulation",
+      "url": "https://drive.google.com/file/d/1E0pxA4D6MTdob4B-lmZ84di6LqaJ-xy7/view?usp=sharing",
+      "startDate": "2025-05-01",
+      "endDate": "2025-07-31",
+      "summary": "Developed an indigenous PCB design and simulation software with Generative AI capabilities.",
+      "highlights": [
+        "Created a cross-validated benchmark thermal, elasticity, and electromagnetism simulation datasets for physics-informed machine learning",
+        "Gained experience in FEM pipelines, mesh generation, and validation using MFEM, OpenEMS, and Elmer"
+      ]
+    },
+    {
+      "name": "MISN Lab, IIT Delhi",
+      "position": "Research Intern - Dynamic Graph Coarsening for GNN Preservation",
+      "url": "",
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "summary": "Developed Mathematical Guarantees on a novel Dynamic Graph Coarsening Framework.",
+      "highlights": [
+        "Analysed theoretical Gromov-Wasserstein distance and gave novel RSA constant-based bounds",
+        "Currently working on developing and testing a novel algorithm for Continuous Dynamic Graph Coarsening",
+        "Under Review at JMLR"
+      ]
+    },
+    {
       "name": "Technical Council, Indian Institute of Technology, Gandhinagar",
       "position": "Management Coordinator",
       "url": "https://students.iitgn.ac.in/tech-council",
       "startDate": "2025-05-01",
-      "endDate": "2026-04-01",
-      "summary": "Responsible for improving the techincal culture of the college, push and motivate students to find and pursue techincal domains of their interests.",
-      "highlights": ["administration, tech"]
-    }
+      "endDate": "",
+      "summary": "Responsible for smooth execution and organisation of technical events undertaken at IIT Gandhinagar.",
+      "highlights": [
+        "Aiming to empower students through technical skills and foster a technical culture among the student community"
+      ]
+    },
     {
-      "name": "Indian Institute of Technology, Gandhinagar",
-      "position": "Senator, BTech'23",
-      "url": "https://iitgn.ac.in",
-      "startDate": "2025-04-01",
-      "endDate": "2026-04-01",
-      "summary": "Represented the Batch at the college administration. Worked to raise and solve the concerns of students of IIT Gandhinagar.",
-      "highlights": ["administration"]
-    }
-    {
-      "name": "Indian Institute of Technology, Gandhinagar",
-      "position": "Class Representative, Computer Science & Engineering, BTech'23",
-      "url": "https://iitgn.ac.in",
-      "startDate": "2024-08-01",
-      "endDate": "2025-04-01",
-      "summary": "Represented the students of computer science & engineering of the Batch in academics. Worked to ensure the effective communication between students and professors for smoother functioning of the course.",
-      "highlights": ["communication"]
+      "name": "Inter-IIT Tech Meet 14.0",
+      "position": "Deputy Contingent Leader",
+      "url": "",
+      "startDate": "2025-10-01",
+      "endDate": "2025-12-31",
+      "summary": "Lead the group of 90 students representing IIT Gandhinagar in the 14th Inter IIT Tech Meet conducted at IIT Patna.",
+      "highlights": [
+        "Under my leadership, IIT Gandhinagar delivered its best performance to date with 4 medals",
+        "Including the college's first gold and my individual bronze in a no-prep problem statement"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoLab, IIT Gandhinagar",
+      "organization": "IIT Gandhinagar",
       "location": "Gandhinagar, India",
-      "position": "Volunteer for Contacting Industry",
-      "url": "https://news.iitgn.ac.in/iitgn-successfully-hosts-colab-2025/",
-      "startDate": "2025-01-02",
-      "endDate": "2025-02-23",
-      "summary": "CoLab is the annual event conducted by R&D Deppt. of IIT Gandhinagar for Collaboration of Industry and Academia.",
-      "highlights": []
+      "position": "Instructor, SC-392: Introduction to Machine Learning",
+      "url": "",
+      "startDate": "2025-08-01",
+      "endDate": "2025-09-30",
+      "summary": "Co-designed and delivered a 7-lecture introductory ML course for 200+ participants from B.Tech, M.Tech, MA, M.Sc., and PhD programs.",
+      "highlights": [
+        "Led lectures and discussions on core ML concepts and supervised labs",
+        "120+ first-year undergraduates actively engaging from the first session"
+      ]
     }
   ],
   "education": [
@@ -69,69 +111,194 @@
       "location": "Gandhinagar, India",
       "url": "https://iitgn.ac.in/",
       "area": "Computer Science & Engineering",
-      "studyType": "BTech",
+      "studyType": "B.Tech",
       "startDate": "2023-08-01",
       "endDate": "2027-05-01",
-      "score": "8.82",
-      "courses": ["Machine Learning", "Data Structures and Algorithms - I"]
+      "score": "8.89/10",
+      "courses": [
+        "Machine Learning",
+        "Data Centric Computing",
+        "Calculus of Several Variables",
+        "Discrete Mathematics",
+        "Probability Statistics & Data Visualisation",
+        "Data Structures & Algorithms",
+        "Theory of Computing"
+      ]
+    },
+    {
+      "institution": "Divine Life International School (GSHSEB)",
+      "location": "India",
+      "url": "",
+      "area": "Maths, Physics, Chemistry, CS",
+      "studyType": "Class XII",
+      "startDate": "2022-04-01",
+      "endDate": "2023-03-31",
+      "score": "81.54%",
+      "courses": []
+    },
+    {
+      "institution": "Devasya Intl. Public School (GSHSEB)",
+      "location": "India",
+      "url": "",
+      "area": "",
+      "studyType": "Class X",
+      "startDate": "2020-04-01",
+      "endDate": "2021-03-31",
+      "score": "90.0%",
+      "courses": []
     }
   ],
   "awards": [
-    
-  ],
-  "certificates": [
-    
     {
-      "name": "Investment Banking Analyst",
-      "date": "2023-12-31",
-      "issuer": "Finlatics",
-      "url": "https://www.finlatics.com/",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Summer Undergraduate Research Fellowship at Caltech",
+      "date": "2026",
+      "awarder": "Caltech",
+      "url": "",
+      "summary": "Received fellowship for summer 2026"
+    },
+    {
+      "title": "Best Student Paper Award",
+      "date": "2026",
+      "awarder": "International Conference on Advanced Scientific Computing & Machine Learning",
+      "url": "",
+      "summary": "Received Best Student Paper award at ASCML 2026"
+    },
+    {
+      "title": "Academic Citation for Academic Excellence",
+      "date": "2025-2026",
+      "awarder": "IIT Gandhinagar",
+      "url": "",
+      "summary": "Academic Excellence in Semester I of the academic year 2025-26"
+    },
+    {
+      "title": "Bronze Medal - Inter-IIT Tech Meet 14.0",
+      "date": "2025",
+      "awarder": "Inter-IIT Tech Meet",
+      "url": "",
+      "summary": "Bronze medal in AI/ML Category proposed by Jilo Health"
+    },
+    {
+      "title": "JEE Advanced - AIR 1712",
+      "date": "2023",
+      "awarder": "IIT",
+      "url": "",
+      "summary": "Secured All India Rank 1712 among 180,372 Students Appeared"
+    },
+    {
+      "title": "JEE Mains - AIR 1364",
+      "date": "2023",
+      "awarder": "NTA",
+      "url": "",
+      "summary": "Secured All India Rank 1364 among 1,113,325 Students Appeared"
     }
   ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Efficient Temporal Hypergraph Coarsening Framework with Theoretical Guarantees",
+      "publisher": "ICML 2026: The Forty-Third International Conference on Machine Learning",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Under review at ICML 2026"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Capturing High Frequency Features using HF-Boost based Spectrally Adaptive Physics-Informed Neural Networks",
+      "publisher": "Advanced Scientific Computing & Machine Learning (ASCML) 2026, BITS Pilani K K Birla Goa Campus",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "ACCEPTED"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Multi-Diagnostic Ensemble for Physics-Informed Neural Networks",
+      "publisher": "Advanced Scientific Computing & Machine Learning (ASCML) 2026, BITS Pilani K K Birla Goa Campus",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "ACCEPTED"
+    },
+    {
+      "name": "Multi-Stage Physics-Informed Neural Network for Jet Flame Emission Modelling",
+      "publisher": "Advanced Scientific Computing & Machine Learning (ASCML) 2026, BITS Pilani K K Birla Goa Campus",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "ACCEPTED - Oral Presentation"
+    },
+    {
+      "name": "Spectral Geometry and Minimax Optimality of Counterfactual Mean Embeddings under Partial Identifiability",
+      "publisher": "COLT 2026: The 39th Annual Conference on Learning Theory",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Under review"
+    },
+    {
+      "name": "Defying Asymptotic Feature Dynamics in Heterophilic GNNs using Drichlet Oscillations",
+      "publisher": "COLT 2026: The 39th Annual Conference on Learning Theory",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Under review"
+    },
+    {
+      "name": "Kernel Invariant Risk Minimization: Fixed-Point Causal Discovery in High Dimensions",
+      "publisher": "COLT 2026: The 39th Annual Conference on Learning Theory",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Under review"
+    },
+    {
+      "name": "The Pareto Frontier of Stable Adaptation: Hard Switching Constraints in Online Convex Optimization",
+      "publisher": "COLT 2026: The 39th Annual Conference on Learning Theory",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Under review"
+    },
+    {
+      "name": "Efficient and Reliable Dynamic Graph Coarsening with Theoretical Spectral Bounds",
+      "publisher": "Journal of Machine Learning Research (JMLR)",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Manoj Kumar*, Abhishek Gupta*, Ridham Patel, Sandeep Kumar - Under review"
     }
   ],
   "skills": [
     {
-      "name": "Machine Learning",
+      "name": "Programming Languages",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Classical Machine Learning",
-        "Graph Machine Learning (GNNs, GTNs)",
-        "NTKs",
-        "Diffusion Models",
-        "Transformers",
+        "Python",
+        "C++",
+        "C",
+        "HTML",
+        "CSS"
       ]
     },
     {
-      "name": "Data Science",
+      "name": "Libraries & Frameworks",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-book",
       "keywords": [
-        "K-Approximation Nearest Neighbors",
-        "Sketches",
+        "PyTorch",
+        "Tensorboard",
+        "Scikit-learn",
+        "OpenCV",
+        "Numpy",
+        "Pandas",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Machine Learning Techniques",
+      "level": "Master",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "MLP",
+        "CNN",
+        "Reinforcement Learning",
+        "Regression Analysis",
+        "Graph Spatial Clustering Techniques",
+        "Attention Mechanism",
+        "Transformers",
+        "GNNs",
+        "GTNs"
       ]
     }
   ],
@@ -157,36 +324,103 @@
       "name": "Machine Learning",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Classical Machine Learning",
         "Graph Machine Learning (GNNs, GTNs)",
-        "NTKs",
+        "Neural Tangent Kernels (NTKs)",
         "Diffusion Models",
+        "Physics-Informed Neural Networks",
         "Transformers",
+        "Classical Machine Learning"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "icon": "fa-solid fa-database",
+      "keywords": [
         "K-Approximation Nearest Neighbors",
-        "Sketches",
+        "Graph Coarsening",
+        "Hypergraph Analysis"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Dynamic Hypergraph Coarsening with structural properties & HGNN performance preservation",
+      "summary": "Investigating Coarsening methods for Temporal Hypergraph for various machine learning applications, preserving structural properties like cut, flow, conductance and Hypergraph Neural Network performance.",
+      "highlights": [
+        "Developed a novel framework for making Temporal Updates to Coarse Hypergraphs",
+        "Achieved up to 55x speedup from a full-recomputation-based baseline",
+        "Developed mathematical guarantees for deviation from baseline",
+        "Under Review at AISTATS 2026"
+      ],
+      "startDate": "2025-07-01",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "Physics Informed Diffusion Model for Flood Modelling and Prediction",
+      "summary": "Developing a first-of-its-kind diffusion model for flood prediction in both fluvial and pluvial contexts.",
+      "highlights": [
+        "Developed a preliminary version of the Graph-based Diffusion architecture for flood modelling in urban context",
+        "Learned Diffusion (DDPM) and Graph Neural Networks Based Methods for Urban Flood Prediction"
+      ],
+      "startDate": "2025-07-01",
+      "endDate": "",
+      "url": "https://drive.google.com/file/d/19Z2P6TVWBjp299Mp6gt_gQf9QNnwaMQR/view?usp=sharing"
+    },
+    {
+      "name": "ProGNN: Residue-level GNN for Secondary Structure & RSA Prediction",
+      "summary": "Converted PDB/mmCIF structures into residue graphs for per-residue SS and ASA labels.",
+      "highlights": [
+        "Engineered node/edge features and built a PyG pipeline for dataset discovery and preprocessing",
+        "Implemented a 2-layer GCN with dual heads for 3-class secondary-structure classification and RSA regression"
+      ],
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-30",
+      "url": "https://github.com/ridhamp4/ProGNN"
+    },
+    {
+      "name": "Kernel Based Graph Condensation Algorithm for comparable GNN performance",
+      "summary": "Developed a graph distillation technique to reduce computational complexity, preserving GNN performance.",
+      "highlights": [
+        "Developed a scalable algorithm utilizing GNTK with Nyström approximation and kernel K-Means",
+        "Enabled up to 80% graph size reduction with less than 1% GNN accuracy loss on Cora"
+      ],
+      "startDate": "2025-05-01",
+      "endDate": "2025-07-31",
+      "url": "https://drive.google.com/file/d/17q6a32MaZFn8vTFOngWISTABChJCtF1G/view?usp=sharing"
+    },
+    {
+      "name": "Hub Based Graph Construction Techniques for HNSW",
+      "summary": "Proposed and implemented a supervised Graph Construction technique for the Hierarchical Navigable Small World (HNSW) algorithm for ANN search using Hubness theory.",
+      "highlights": [
+        "Explored the phenomenon of hubness in high-dimensional spaces",
+        "Achieved perfect recall with 125x faster build times, slightly lesser query time & 82% fewer edges than vanilla HNSW"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2025-04-30",
+      "url": "https://drive.google.com/file/d/1xOOrqaKNOJL1Y4qcltl2D92q_WLsLc23/view?usp=sharing"
+    },
+    {
+      "name": "Graph Transformer Networks for Molecular Dipole Prediction",
+      "summary": "Developed a Graph Transformer Network-based model for predicting molecular dipoles using spatial positions of atoms in a molecule.",
+      "highlights": [
+        "Integrated 3D spatial positional encodings and attention-based message passing",
+        "Model performance was compared with the graph neural network baseline"
+      ],
+      "startDate": "2025-04-01",
+      "endDate": "2025-04-30",
+      "url": "https://github.com/ridhamp4/Graph-Transformer-Networks-with-Positional-Features-for-Molecular-Property-Prediction"
+    },
+    {
+      "name": "Next Line Predictor Chatbot with Multilayer Perceptron",
+      "summary": "Developed a Next-line predictor using a multilayer perceptron and deployed it using Streamlit.",
+      "highlights": [
+        "Trained a multilayer perceptron for various sets of hyperparameters and analyzed its impact on model performance"
+      ],
+      "startDate": "2024-08-01",
+      "endDate": "2024-11-30",
+      "url": "https://github.com/Jain-Laksh/ES335-assignment-3"
     }
   ]
 }
