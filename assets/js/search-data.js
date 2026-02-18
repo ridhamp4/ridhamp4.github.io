@@ -67,7 +67,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-graph-coarsening-with-preserved-gnn-performance",
           title: 'Graph Coarsening with Preserved GNN Performance',
-          description: "Research at NCSU on efficient graph reduction techniques",
+          description: "Research at IIT Delhi on efficient graph reduction techniques",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-continuous-dynamic-temporal-graph-coarsening",
@@ -75,9 +75,9 @@ ninja.data = [{
           description: "Ongoing research on dynamic graph compression techniques",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
-            },},{id: "projects-eliminating-bottlenecks-with-a-novel-dual-layered-gnn-architecture",
-          title: 'Eliminating Bottlenecks with a Novel Dual-Layered GNN Architecture',
-          description: "another without an image",
+            },},{id: "projects-construction-site-monitoring-with-computer-vision",
+          title: 'Construction Site Monitoring with Computer Vision',
+          description: "ML-based construction project tracking system analyzing photos and drawings",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
             },},{id: "projects-creating-dataset-for-generative-ai-of-pcb-design-amp-simulation-software",
@@ -85,9 +85,9 @@ ninja.data = [{
           description: "Dataset creation for AI-driven PCB design automation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
-            },},{id: "projects-hub-based-graph-construction-techniques-for-hnsw",
-          title: 'Hub Based Graph Construction Techniques for HNSW',
-          description: "a project with no image",
+            },},{id: "projects-physics-informed-ml-for-pcb-thermal-and-em-simulation",
+          title: 'Physics-Informed ML for PCB Thermal and EM Simulation',
+          description: "Data generation pipeline for ML-based PCB simulation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project.html";
             },},{id: "projects-graph-transformer-for-molecular-dipole-prediction",
@@ -95,14 +95,14 @@ ninja.data = [{
           description: "Ongoing research on transformer architectures for molecular property prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project.html";
-            },},{id: "projects-next-line-predictor-chatbot-with-mlp",
-          title: 'Next Line Predictor Chatbot with MLP',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-academic-coursework-projects",
+          title: 'Academic Coursework Projects',
+          description: "Selected projects from coursework and self-learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project.html";
-            },},{id: "projects-image-classification-using-cnn",
-          title: 'Image Classification Using CNN',
-          description: "another project with an image 🎉",
+            },},{id: "projects-graph-neural-network-research-tools-amp-infrastructure",
+          title: 'Graph Neural Network Research Tools &amp;amp; Infrastructure',
+          description: "Development of tools and utilities for GNN research",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project.html";
             },},{
