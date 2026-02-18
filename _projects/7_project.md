@@ -1,80 +1,50 @@
 ---
 layout: page
 title: Graph Transformer for Molecular Dipole Prediction
-description: with background image
+description: Ongoing research on transformer architectures for molecular property prediction
 img: assets/img/4.jpg
 importance: 1
-category: Non-Advised
+category: Advised
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This ongoing research project, initiated in August 2024, explores the application of Graph Transformer architectures for predicting molecular dipole moments. Accurate prediction of molecular properties is crucial for drug discovery, materials science, and chemical engineering. This work aims to leverage the attention mechanism of transformers combined with graph-based molecular representations to achieve state-of-the-art performance in dipole moment prediction.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Problem Statement
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Predicting molecular properties from structure is a fundamental challenge in computational chemistry. Traditional methods like Density Functional Theory (DFT) are accurate but computationally expensive, making them impractical for high-throughput screening. Machine learning approaches offer a faster alternative, but existing Graph Neural Networks (GNNs) have limitations in capturing long-range molecular interactions and complex electronic distributions. The goal is to develop a Graph Transformer model that:
+- Captures both local and long-range atomic interactions
+- Learns meaningful molecular representations for property prediction
+- Achieves accuracy comparable to expensive quantum mechanical methods
+- Generalizes well to diverse molecular structures
 
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methodology
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The research investigates several key components:
+- **Graph Transformer Architecture**: Designing transformer layers that operate on molecular graphs with atoms as nodes and bonds as edges
+- **Attention Mechanisms**: Implementing multi-head attention to capture various types of atomic interactions (covalent, electrostatic, van der Waals)
+- **Positional Encoding**: Developing graph-specific positional encodings that incorporate 3D geometric information
+- **Feature Engineering**: Extracting and incorporating relevant atomic and molecular features (atomic number, hybridization, aromaticity, etc.)
+- **Multi-Task Learning**: Simultaneously predicting multiple molecular properties to improve generalization
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technologies
 
-{% raw %}
+- **Deep Learning**: PyTorch, PyTorch Geometric
+- **Molecular Libraries**: RDKit, OpenBabel, DeepChem
+- **Graph Neural Networks**: Transformers, Graph Attention Networks (GAT)
+- **Computational Chemistry**: ASE (Atomic Simulation Environment)
+- **Data Processing**: pandas, NumPy, scikit-learn
+- **Experimentation**: Weights & Biases, TensorBoard
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Current Status and Outcomes
 
-{% endraw %}
+The project is actively ongoing with promising preliminary results:
+- Developed a Graph Transformer architecture specifically tailored for molecular property prediction
+- Achieved competitive performance on standard molecular property prediction benchmarks
+- Currently exploring ensemble methods and uncertainty quantification
+- Investigating transfer learning from pre-trained molecular representations
+- Preparing results for publication in computational chemistry and machine learning venues
+
+The research aims to contribute to the development of more efficient and accurate computational tools for molecular design and discovery, with potential applications in drug development, catalyst design, and materials engineering.

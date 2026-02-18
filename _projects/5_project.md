@@ -1,80 +1,49 @@
 ---
 layout: page
 title: Creating Dataset for Generative AI of PCB Design & Simulation Software
-description: a project with a background image
+description: Dataset creation for AI-driven PCB design automation
 img: assets/img/1.jpg
 importance: 3
 category: Advised
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project, conducted from January 2024 to May 2024, focused on creating a comprehensive dataset to enable generative AI applications in Printed Circuit Board (PCB) design and simulation. The goal was to develop a structured dataset that captures the complexity of PCB designs, enabling machine learning models to assist in automated PCB layout generation, design optimization, and simulation prediction.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Problem Statement
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+PCB design is a complex engineering task requiring expertise in electrical engineering, signal integrity, and thermal management. While generative AI has shown promise in various domains, its application to PCB design has been limited by the lack of high-quality, structured datasets. The challenge was to:
+- Collect and curate diverse PCB design data from various sources
+- Standardize different design formats and representations
+- Extract relevant features for machine learning applications
+- Ensure dataset quality and coverage of different design patterns
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methodology
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The project involved several key components:
+- **Data Collection**: Gathering PCB designs from open-source repositories, educational resources, and industry partners
+- **Format Standardization**: Converting various PCB design formats (Gerber, KiCad, Eagle, Altium) into a unified representation
+- **Feature Extraction**: Identifying and extracting relevant design features including component placement, routing patterns, layer stackups, and design rules
+- **Annotation Pipeline**: Developing tools for labeling design quality, performance characteristics, and simulation outcomes
+- **Dataset Validation**: Implementing quality checks and validation procedures to ensure dataset integrity
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technologies
 
-{% raw %}
+- **PCB Design Tools**: KiCad, Eagle CAD, Altium Designer APIs
+- **Data Processing**: Python, pandas, NumPy
+- **File Parsing**: Custom parsers for Gerber, KiCad, Eagle file formats
+- **Machine Learning**: scikit-learn, PyTorch (for initial baseline models)
+- **Database**: PostgreSQL, MongoDB for dataset storage
+- **Visualization**: Matplotlib, Plotly for design visualization
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Outcomes
 
-{% endraw %}
+The project successfully created a diverse dataset of over 1,000 PCB designs with rich annotations, including:
+- Component-level information (type, placement, connections)
+- Routing patterns and trace characteristics
+- Layer configuration and design rules
+- Simulation results for power integrity and signal integrity
+- Design quality metrics
+
+This dataset serves as a foundation for developing generative AI models that can assist engineers in PCB design automation, design optimization, and rapid prototyping. The structured format enables various downstream tasks including design generation, completion, optimization, and quality prediction.
