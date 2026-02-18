@@ -62,17 +62,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-hypergraph-coarsening-with-preserved-hypergnn-performance",
           title: 'Hypergraph Coarsening with preserved HyperGNN Performance',
-          description: "with background image",
+          description: "Research on scalable hypergraph representation learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-graph-coarsening-with-preserved-gnn-performance",
           title: 'Graph Coarsening with Preserved GNN Performance',
-          description: "a project with a background image and giscus comments",
+          description: "Research at NCSU on efficient graph reduction techniques",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
             },},{id: "projects-continuous-dynamic-temporal-graph-coarsening",
           title: 'Continuous Dynamic Temporal Graph Coarsening',
-          description: "a project that redirects to another website",
+          description: "Ongoing research on dynamic graph compression techniques",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-eliminating-bottlenecks-with-a-novel-dual-layered-gnn-architecture",
@@ -82,7 +82,7 @@ ninja.data = [{
               window.location.href = "/projects/4_project.html";
             },},{id: "projects-creating-dataset-for-generative-ai-of-pcb-design-amp-simulation-software",
           title: 'Creating Dataset for Generative AI of PCB Design &amp;amp; Simulation Software',
-          description: "a project with a background image",
+          description: "Dataset creation for AI-driven PCB design automation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
             },},{id: "projects-hub-based-graph-construction-techniques-for-hnsw",
@@ -92,7 +92,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project.html";
             },},{id: "projects-graph-transformer-for-molecular-dipole-prediction",
           title: 'Graph Transformer for Molecular Dipole Prediction',
-          description: "with background image",
+          description: "Ongoing research on transformer architectures for molecular property prediction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project.html";
             },},{id: "projects-next-line-predictor-chatbot-with-mlp",
