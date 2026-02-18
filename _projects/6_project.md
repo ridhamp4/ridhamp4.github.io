@@ -1,80 +1,47 @@
 ---
 layout: page
-title: Hub Based Graph Construction Techniques for HNSW
-description: a project with no image
+title: Physics-Informed ML for PCB Thermal and EM Simulation
+description: Data generation pipeline for ML-based PCB simulation
 img:
 importance: 4
 category: Non-Advised
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+During my research internship at IIT Delhi from May to July 2025, I worked on developing comprehensive datasets for physics-informed machine learning models aimed at PCB (Printed Circuit Board) simulation. This work is part of a larger project to create an indigenous PCB design and simulation software with Generative AI capabilities.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Problem Statement
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Traditional PCB simulation using Finite Element Method (FEM) is computationally expensive and time-consuming. Machine learning approaches can potentially speed up simulations, but they require high-quality, diverse training datasets with accurate physics simulations. The challenge was to:
+- Generate cross-validated benchmark datasets for thermal, elasticity, and electromagnetic simulations
+- Ensure physical accuracy and numerical consistency across simulations
+- Create datasets suitable for training physics-informed neural networks
+- Validate results against established simulation tools
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Methodology
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The project involved building a comprehensive data generation pipeline:
+- **FEM Pipeline Development**: Implemented and optimized FEM simulation pipelines for multiple physics domains
+- **Mesh Generation**: Developed robust mesh generation procedures for various PCB geometries and components
+- **Multi-Physics Simulation**: Generated datasets covering thermal analysis, structural elasticity, and electromagnetic behavior
+- **Validation Framework**: Cross-validated results using multiple simulation tools (MFEM, OpenEMS, Elmer)
+- **Dataset Curation**: Organized and structured datasets for machine learning consumption
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technologies
 
-{% raw %}
+- **FEM Tools**: MFEM (Modular Finite Element Methods), OpenEMS (EM simulation), Elmer (multi-physics)
+- **Mesh Generation**: Gmsh, custom meshing tools
+- **Scientific Computing**: Python, NumPy, SciPy
+- **Data Management**: pandas, HDF5 for large dataset storage
+- **Validation**: Custom validation scripts comparing results across multiple solvers
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Outcomes
 
-{% endraw %}
+Successfully created:
+- A comprehensive benchmark dataset covering thermal, mechanical, and electromagnetic simulations
+- Validated FEM pipeline with cross-tool verification ensuring physical accuracy
+- Structured dataset format suitable for training physics-informed machine learning models
+- Documentation and tools for extending the dataset to new PCB designs and configurations
+
+This dataset serves as a foundation for developing ML models that can accelerate PCB simulation while maintaining physical accuracy, potentially reducing simulation time from hours to seconds for common PCB design tasks.

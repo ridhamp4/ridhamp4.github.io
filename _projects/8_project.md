@@ -1,81 +1,53 @@
 ---
 layout: page
-title: Next Line Predictor Chatbot with MLP
-description: an other project with a background image and giscus comments
+title: Academic Coursework Projects
+description: Selected projects from coursework and self-learning
 img: assets/img/9.jpg
 importance: 2
 category: Non-Advised
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This page contains a collection of selected projects completed during various courses and self-learning initiatives at IIT Gandhinagar. These projects span multiple areas of computer science including machine learning, deep learning, data structures, and algorithms.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Projects
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Machine Learning & Deep Learning
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Image Classification with Convolutional Neural Networks**
+- Implemented CNN architectures (VGG, ResNet) for image classification tasks
+- Achieved competitive accuracy on standard benchmark datasets
+- Explored transfer learning and fine-tuning techniques
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Next Line Prediction with Multi-Layer Perceptrons**
+- Built an MLP-based model for text generation and next-line prediction
+- Implemented attention mechanisms for improved context understanding
+- Trained on literary datasets with custom tokenization
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Time Series Forecasting**
+- Developed LSTM and GRU models for time series prediction
+- Applied to real-world datasets for financial and weather forecasting
+- Compared various sequence modeling approaches
 
-{% raw %}
+### Data Structures & Algorithms
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Graph Algorithms Implementation**
+- Implemented classic graph algorithms (Dijkstra, Floyd-Warshall, MST)
+- Optimized for performance on large-scale graphs
+- Applied to network analysis problems
 
-{% endraw %}
+**Advanced Data Structures**
+- Implemented self-balancing trees, heaps, and hash tables
+- Analyzed time and space complexity for various operations
+- Built custom data structures for specific use cases
+
+## Technologies Used
+
+- **Deep Learning**: PyTorch, TensorFlow, Keras
+- **Programming**: Python, C++, Java
+- **Data Processing**: pandas, NumPy, scikit-learn
+- **Visualization**: Matplotlib, Seaborn
+
+These projects provided hands-on experience with fundamental concepts and prepared the foundation for advanced research work in machine learning and graph neural networks.

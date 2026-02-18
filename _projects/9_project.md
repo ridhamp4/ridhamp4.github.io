@@ -1,80 +1,53 @@
 ---
 layout: page
-title: Image Classification Using CNN
-description: another project with an image 🎉
+title: Graph Neural Network Research Tools & Infrastructure
+description: Development of tools and utilities for GNN research
 img: assets/img/6.jpg
 importance: 4
 category: Non-Advised
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Throughout my research work in Graph Machine Learning, I have developed various tools, utilities, and infrastructure components that support my research and can benefit the broader research community. This project encompasses the development of reusable code, benchmarking frameworks, and visualization tools for graph neural network research.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Components
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Graph Coarsening Utilities
+- Implemented various graph coarsening algorithms for benchmarking
+- Developed tools for measuring coarsening quality and GNN performance preservation
+- Created visualization tools for understanding graph reduction processes
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Benchmarking Framework
+- Built a modular framework for evaluating GNN architectures on coarsened graphs
+- Integrated multiple datasets and standard evaluation metrics
+- Automated experiment tracking and result aggregation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Visualization Tools
+- Developed tools for visualizing graph structures and their coarsened versions
+- Created plots for analyzing spectral properties of graphs
+- Built interactive visualizations for exploring GNN behavior
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Data Processing Pipeline
+- Implemented efficient data loaders for large-scale graph datasets
+- Created preprocessing scripts for standardizing graph formats
+- Developed augmentation techniques for graph-level tasks
 
-{% raw %}
+## Technologies
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Graph Libraries**: NetworkX, PyTorch Geometric, DGL
+- **Deep Learning**: PyTorch, TensorFlow
+- **Visualization**: Matplotlib, Plotly, networkx drawing utilities
+- **Scientific Computing**: NumPy, SciPy
+- **Experiment Tracking**: Weights & Biases, TensorBoard
+- **Code Quality**: pytest, black, pylint
 
-{% endraw %}
+## Impact
+
+These tools have:
+- Accelerated research iterations and experimentation
+- Enabled reproducible research with standardized benchmarks
+- Facilitated collaboration through modular, reusable components
+- Supported the development of papers currently under review
+
+The codebase follows best practices for research code, including documentation, testing, and version control, making it suitable for open-source release upon publication of associated research papers.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Graph Coarsening with Preserved GNN Performance
-description: Research at NCSU on efficient graph reduction techniques
+description: Research at IIT Delhi on efficient graph reduction techniques
 img: assets/img/3.jpg
 importance: 2
 category: Advised
@@ -10,7 +10,7 @@ giscus_comments: false
 
 ## Overview
 
-Conducted from January 2023 to June 2023 at North Carolina State University (NCSU), this research investigates graph coarsening techniques that maintain Graph Neural Network (GNN) performance while reducing computational overhead. Graph coarsening is essential for scaling GNN-based methods to large-scale graph datasets commonly found in social networks, molecular structures, and knowledge graphs.
+Conducted from January 2023 to June 2023 at IIT Delhi, this research investigates graph coarsening techniques that maintain Graph Neural Network (GNN) performance while reducing computational overhead. Graph coarsening is essential for scaling GNN-based methods to large-scale graph datasets commonly found in social networks, molecular structures, and knowledge graphs.
 
 ## Problem Statement
 
